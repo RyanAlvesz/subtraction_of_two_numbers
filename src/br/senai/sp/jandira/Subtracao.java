@@ -7,7 +7,7 @@ public class Subtracao {
 	public static void main(String[] args) {
 
 		String strValor1, strValor2;
-		double valor1, valor2, soma;
+		double valor1, valor2, subtracao;
 		
 		strValor1 = JOptionPane.showInputDialog("Digite o primeiro valor");
 		strValor2 = JOptionPane.showInputDialog("Digite o segundo valor");
@@ -16,12 +16,12 @@ public class Subtracao {
 		valor2 = Double.parseDouble(strValor2);
 		
 		if (valor1 <= valor2) {
-			soma = valor2 - valor1;
+			subtracao = valor2 - valor1;
 		}else {
-			soma = valor1 - valor2;
+			subtracao = valor1 - valor2;
 		}
 		
-		JOptionPane.showMessageDialog(null, "O resultado da subtração é: " + soma);
+		JOptionPane.showMessageDialog(null, "O resultado da subtração é: " + subtracao);
 	
 	}
 
